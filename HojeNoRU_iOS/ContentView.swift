@@ -13,13 +13,13 @@ struct ContentView: View {
             ScrollView {
                 VStack(spacing: 20) {
                     NavigationLink(destination: RUDetailView(ruName: "RU01 - CAMPUS CENTRO")) {
-                        RUCard(title: "RU01 - CAMPUS CENTRO", color: .red, imageName: "img-ru1")
+                        RUCard(title: "RU01 - CAMPUS CENTRO", color: Color("color-ru1"), imageName: "img-ru1")
                     }
                     NavigationLink(destination: RUDetailView(ruName: "RU02 - CAMPUS SAÚDE")) {
-                        RUCard(title: "RU02 - CAMPUS SAÚDE", color: .yellow, imageName: "img-ru2")
+                        RUCard(title: "RU02 - CAMPUS SAÚDE", color: Color("color-ru2"), imageName: "img-ru2")
                     }
                     NavigationLink(destination: RUDetailView(ruName: "RU03 - CAMPUS DO VALE")) {
-                        RUCard(title: "RU03 - CAMPUS DO VALE", color: .blue, imageName: "img-ru3")
+                        RUCard(title: "RU03 - CAMPUS DO VALE", color: Color("color-ru3"), imageName: "img-ru3")
                     }
                 }
                 .padding(.vertical)
