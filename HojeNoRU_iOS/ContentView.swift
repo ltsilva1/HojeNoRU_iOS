@@ -11,6 +11,18 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("CARDÁPIO ")
+                        .font(.custom("KaushanScript-Regular", size: 40))
+                        .foregroundColor(Color("color-cardapio"))
+                                        
+                    Text("Selecione seu restaurante universitário")
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                }
+                .padding(.horizontal)
+                .padding(.top, 10)
+                
                 VStack(spacing: 20) {
                     NavigationLink(destination: RUDetailView(ruName: "RU01 - CAMPUS CENTRO")) {
                         RUCard(title: "RU01 - CAMPUS CENTRO", color: Color("color-ru1"), imageName: "img-ru1")
@@ -24,7 +36,6 @@ struct ContentView: View {
                 }
                 .padding(.vertical)
             }
-            .navigationTitle("Restaurantes Universitários")
         }
     }
 }

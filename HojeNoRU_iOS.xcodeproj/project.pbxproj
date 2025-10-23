@@ -15,6 +15,7 @@
 		1CD4FE9E2EA99E72007B37B0 /* BarlowCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4FE9D2EA99E53007B37B0 /* BarlowCondensed-Regular.ttf */; };
 		1CD4FEA52EA9A64D007B37B0 /* BarlowCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4FEA42EA9A64D007B37B0 /* BarlowCondensed-ExtraBold.ttf */; };
 		1CD4FEA72EA9A696007B37B0 /* BarlowCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4FEA62EA9A696007B37B0 /* BarlowCondensed-Bold.ttf */; };
+		1CD4FEAC2EA9E9D6007B37B0 /* KaushanScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4FEAB2EA9E9D6007B37B0 /* KaushanScript-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1CD4FEA32EA9A363007B37B0 /* HojeNoRU-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "HojeNoRU-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 		1CD4FEA42EA9A64D007B37B0 /* BarlowCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-ExtraBold.ttf"; sourceTree = "<group>"; };
 		1CD4FEA62EA9A696007B37B0 /* BarlowCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		1CD4FEAB2EA9E9D6007B37B0 /* KaushanScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaushanScript-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		1CD4FE9C2EA99E26007B37B0 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				1CD4FEAB2EA9E9D6007B37B0 /* KaushanScript-Regular.ttf */,
 				1CD4FEA62EA9A696007B37B0 /* BarlowCondensed-Bold.ttf */,
 				1CD4FEA42EA9A64D007B37B0 /* BarlowCondensed-ExtraBold.ttf */,
 				1CD4FE9D2EA99E53007B37B0 /* BarlowCondensed-Regular.ttf */,
@@ -165,6 +168,7 @@
 			files = (
 				1CD4FE9E2EA99E72007B37B0 /* BarlowCondensed-Regular.ttf in Resources */,
 				1CD4FEA52EA9A64D007B37B0 /* BarlowCondensed-ExtraBold.ttf in Resources */,
+				1CD4FEAC2EA9E9D6007B37B0 /* KaushanScript-Regular.ttf in Resources */,
 				1CD4FEA72EA9A696007B37B0 /* BarlowCondensed-Bold.ttf in Resources */,
 				1C3A2B792EA9964900BB1604 /* Preview Assets.xcassets in Resources */,
 				1C3A2B762EA9964900BB1604 /* Assets.xcassets in Resources */,

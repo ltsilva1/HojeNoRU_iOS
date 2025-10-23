@@ -4,6 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>KaushanScript-Regular.ttf</string>
 		<string>BarlowCondensed-Regular.ttf</string>
 		<string>BarlowCondensed-Bold.ttf</string>
 	</array>
