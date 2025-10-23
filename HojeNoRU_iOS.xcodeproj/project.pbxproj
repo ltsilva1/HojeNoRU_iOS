@@ -16,6 +16,10 @@
 		1CD4FEA52EA9A64D007B37B0 /* BarlowCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4FEA42EA9A64D007B37B0 /* BarlowCondensed-ExtraBold.ttf */; };
 		1CD4FEA72EA9A696007B37B0 /* BarlowCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4FEA62EA9A696007B37B0 /* BarlowCondensed-Bold.ttf */; };
 		1CD4FEAC2EA9E9D6007B37B0 /* KaushanScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4FEAB2EA9E9D6007B37B0 /* KaushanScript-Regular.ttf */; };
+		1CD4FEAF2EAA07DC007B37B0 /* Cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4FEAE2EAA07DC007B37B0 /* Cardapio.swift */; };
+		1CD4FEB22EAA081A007B37B0 /* CardapioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4FEB12EAA081A007B37B0 /* CardapioService.swift */; };
+		1CD4FEB52EAA0880007B37B0 /* CardapioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4FEB42EAA0880007B37B0 /* CardapioViewModel.swift */; };
+		1CD4FEB82EAA08D1007B37B0 /* RUDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4FEB72EAA08D1007B37B0 /* RUDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		1CD4FEA42EA9A64D007B37B0 /* BarlowCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-ExtraBold.ttf"; sourceTree = "<group>"; };
 		1CD4FEA62EA9A696007B37B0 /* BarlowCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Bold.ttf"; sourceTree = "<group>"; };
 		1CD4FEAB2EA9E9D6007B37B0 /* KaushanScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaushanScript-Regular.ttf"; sourceTree = "<group>"; };
+		1CD4FEAE2EAA07DC007B37B0 /* Cardapio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardapio.swift; sourceTree = "<group>"; };
+		1CD4FEB12EAA081A007B37B0 /* CardapioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardapioService.swift; sourceTree = "<group>"; };
+		1CD4FEB42EAA0880007B37B0 /* CardapioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardapioViewModel.swift; sourceTree = "<group>"; };
+		1CD4FEB72EAA08D1007B37B0 /* RUDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,10 @@
 		1C3A2B702EA9964500BB1604 /* HojeNoRU_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				1CD4FEB62EAA08BD007B37B0 /* Views */,
+				1CD4FEB32EAA0861007B37B0 /* ViewModels */,
+				1CD4FEB02EAA0809007B37B0 /* Services */,
+				1CD4FEAD2EAA07CC007B37B0 /* Models */,
 				1CD4FEA32EA9A363007B37B0 /* HojeNoRU-iOS-Info.plist */,
 				1CD4FE9A2EA99DB9007B37B0 /* Resources */,
 				1C3A2B712EA9964500BB1604 /* HojeNoRU_iOSApp.swift */,
@@ -106,6 +118,38 @@
 			children = (
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		1CD4FEAD2EAA07CC007B37B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1CD4FEAE2EAA07DC007B37B0 /* Cardapio.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1CD4FEB02EAA0809007B37B0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1CD4FEB12EAA081A007B37B0 /* CardapioService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1CD4FEB32EAA0861007B37B0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1CD4FEB42EAA0880007B37B0 /* CardapioViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1CD4FEB62EAA08BD007B37B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1CD4FEB72EAA08D1007B37B0 /* RUDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +226,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD4FEB22EAA081A007B37B0 /* CardapioService.swift in Sources */,
+				1CD4FEB82EAA08D1007B37B0 /* RUDetailView.swift in Sources */,
+				1CD4FEAF2EAA07DC007B37B0 /* Cardapio.swift in Sources */,
 				1C3A2B802EA9968100BB1604 /* RUCard.swift in Sources */,
+				1CD4FEB52EAA0880007B37B0 /* CardapioViewModel.swift in Sources */,
 				1C3A2B742EA9964500BB1604 /* ContentView.swift in Sources */,
 				1C3A2B722EA9964500BB1604 /* HojeNoRU_iOSApp.swift in Sources */,
 			);
