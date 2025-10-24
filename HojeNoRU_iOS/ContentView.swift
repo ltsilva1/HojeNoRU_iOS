@@ -26,23 +26,10 @@ struct ContentView: View {
                 .padding(.top, 10)
                 
                 VStack(spacing: 20) {
-                    NavigationLink(destination: RUDetailView(ruId: 1, ruName: "RU01 - CAMPUS CENTRO")) {
-                        RUCard(title: "RU01 - CAMPUS CENTRO", color: Color("color-ru1"), imageName: "img-ru1")
-                    }
-                    NavigationLink(destination: RUDetailView(ruId: 2, ruName: "RU02 - CAMPUS SAÚDE")) {
-                        RUCard(title: "RU02 - CAMPUS SAÚDE", color: Color("color-ru2"), imageName: "img-ru2")
-                    }
-                    NavigationLink(destination: RUDetailView(ruId: 3, ruName: "RU03 - CAMPUS DO VALE")) {
-                        RUCard(title: "RU03 - CAMPUS DO VALE", color: Color("color-ru3"), imageName: "img-ru3")
-                    }
-                    NavigationLink(destination: RUDetailView(ruId: 4, ruName: "RU04 - CAMPUS AGRONOMIA")) {
-                        RUCard(title: "RU04 - CAMPUS AGRONOMIA", color: Color("color-ru4"), imageName: "img-ru4")
-                    }
-                    NavigationLink(destination: RUDetailView(ruId: 5, ruName: "RU05 - CAMPUS ESEFID")) {
-                        RUCard(title: "RU05 - CAMPUS ESEFID", color: Color("color-ru5"), imageName: "img-ru5")
-                    }
-                    NavigationLink(destination: RUDetailView(ruId: 6, ruName: "RU06 - CAMPUS DO VALE")) {
-                        RUCard(title: "RU06 - CAMPUS DO VALE", color: Color("color-ru6"), imageName: "img-ru6")
+                    ForEach(RUData.all) { ru in
+                        NavigationLink(destination: RUDetailView(ruId: ru.id, ruName: "\(ru.code) - \(ru.name)")) {
+                            RUCard(id: ru.code, title: ru.name, color: ru.color, imageName: ru.imageName)
+                        }
                     }
                 }
                 .padding(.vertical)

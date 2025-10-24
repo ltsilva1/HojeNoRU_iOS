@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0061DA2EABF6A900543C37 /* RU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0061D92EABF6A900543C37 /* RU.swift */; };
+		1C0061DC2EABF6ED00543C37 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0061DB2EABF6ED00543C37 /* Constants.swift */; };
 		1C3A2B722EA9964500BB1604 /* HojeNoRU_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A2B712EA9964500BB1604 /* HojeNoRU_iOSApp.swift */; };
 		1C3A2B742EA9964500BB1604 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A2B732EA9964500BB1604 /* ContentView.swift */; };
 		1C3A2B762EA9964900BB1604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3A2B752EA9964900BB1604 /* Assets.xcassets */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C0061D92EABF6A900543C37 /* RU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RU.swift; sourceTree = "<group>"; };
+		1C0061DB2EABF6ED00543C37 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1C3A2B6E2EA9964500BB1604 /* HojeNoRU_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HojeNoRU_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C3A2B712EA9964500BB1604 /* HojeNoRU_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HojeNoRU_iOSApp.swift; sourceTree = "<group>"; };
 		1C3A2B732EA9964500BB1604 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				1CD4FEAE2EAA07DC007B37B0 /* Cardapio.swift */,
+				1C0061D92EABF6A900543C37 /* RU.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				1CF2FF222EAB2D9100C8859A /* DateUtils.swift */,
 				1CF2FF242EAB326C00C8859A /* APIConfig.swift */,
 				1CF2FF282EAB354200C8859A /* APIConfig.example.swift */,
+				1C0061DB2EABF6ED00543C37 /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -251,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CD4FEB22EAA081A007B37B0 /* CardapioService.swift in Sources */,
+				1C0061DC2EABF6ED00543C37 /* Constants.swift in Sources */,
 				1CF2FF232EAB2D9100C8859A /* DateUtils.swift in Sources */,
 				1CD4FEB82EAA08D1007B37B0 /* RUDetailView.swift in Sources */,
 				1CD4FEAF2EAA07DC007B37B0 /* Cardapio.swift in Sources */,
@@ -258,6 +265,7 @@
 				1CF2FF252EAB326C00C8859A /* APIConfig.swift in Sources */,
 				1CD4FEB52EAA0880007B37B0 /* CardapioViewModel.swift in Sources */,
 				1C3A2B742EA9964500BB1604 /* ContentView.swift in Sources */,
+				1C0061DA2EABF6A900543C37 /* RU.swift in Sources */,
 				1C3A2B722EA9964500BB1604 /* HojeNoRU_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

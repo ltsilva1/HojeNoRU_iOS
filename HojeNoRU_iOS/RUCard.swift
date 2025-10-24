@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct RUCard: View {
+    var id: String
     var title: String
     var color: Color
     var imageName: String
@@ -26,10 +27,16 @@ struct RUCard: View {
                     .frame(width: 60, height: 60)
                     .padding(.leading, 10)
                 
-                Text(title)
-                    .font(.custom("BarlowCondensed-Regular", size: 26))
-                    .foregroundColor(.white)
-                    .bold()
+                VStack(alignment: .leading) {
+                    Text(id) // exemplo: RU01
+                        .font(.custom("BarlowCondensed-Regular", size: 18))
+                        .foregroundColor(.white.opacity(0.9))
+                                    
+                    Text(title) // exemplo: CAMPUS CENTRO
+                        .font(.custom("BarlowCondensed-Regular", size: 26))
+                        .bold()
+                        .foregroundColor(.white)
+                    }
                 
                 Spacer()
             }
@@ -41,7 +48,7 @@ struct RUCard: View {
     
     struct RUCard_Previews: PreviewProvider {
         static var previews: some View {
-            RUCard(title: "ExemploRU0", color: .blue, imageName: "img-ru1")
+            RUCard(id: "RU 01", title: "CAMPUS CENTRO", color: Color("color-ru1"), imageName: "img-ru1")
         }
     }
 }
