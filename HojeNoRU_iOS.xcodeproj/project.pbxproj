@@ -20,6 +20,9 @@
 		1CD4FEB22EAA081A007B37B0 /* CardapioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4FEB12EAA081A007B37B0 /* CardapioService.swift */; };
 		1CD4FEB52EAA0880007B37B0 /* CardapioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4FEB42EAA0880007B37B0 /* CardapioViewModel.swift */; };
 		1CD4FEB82EAA08D1007B37B0 /* RUDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4FEB72EAA08D1007B37B0 /* RUDetailView.swift */; };
+		1CF2FF232EAB2D9100C8859A /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2FF222EAB2D9100C8859A /* DateUtils.swift */; };
+		1CF2FF252EAB326C00C8859A /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2FF242EAB326C00C8859A /* APIConfig.swift */; };
+		1CF2FF272EAB34B100C8859A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1CF2FF262EAB34B100C8859A /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,10 @@
 		1CD4FEB12EAA081A007B37B0 /* CardapioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardapioService.swift; sourceTree = "<group>"; };
 		1CD4FEB42EAA0880007B37B0 /* CardapioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardapioViewModel.swift; sourceTree = "<group>"; };
 		1CD4FEB72EAA08D1007B37B0 /* RUDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUDetailView.swift; sourceTree = "<group>"; };
+		1CF2FF222EAB2D9100C8859A /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		1CF2FF242EAB326C00C8859A /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		1CF2FF262EAB34B100C8859A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1CF2FF282EAB354200C8859A /* APIConfig.example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.example.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,7 @@
 		1C3A2B652EA9964500BB1604 = {
 			isa = PBXGroup;
 			children = (
+				1CF2FF262EAB34B100C8859A /* .gitignore */,
 				1C3A2B702EA9964500BB1604 /* HojeNoRU_iOS */,
 				1C3A2B6F2EA9964500BB1604 /* Products */,
 			);
@@ -70,6 +78,7 @@
 		1C3A2B702EA9964500BB1604 /* HojeNoRU_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				1CF2FF212EAB2D7A00C8859A /* Utils */,
 				1CD4FEB62EAA08BD007B37B0 /* Views */,
 				1CD4FEB32EAA0861007B37B0 /* ViewModels */,
 				1CD4FEB02EAA0809007B37B0 /* Services */,
@@ -152,6 +161,16 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		1CF2FF212EAB2D7A00C8859A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1CF2FF222EAB2D9100C8859A /* DateUtils.swift */,
+				1CF2FF242EAB326C00C8859A /* APIConfig.swift */,
+				1CF2FF282EAB354200C8859A /* APIConfig.example.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CD4FE9E2EA99E72007B37B0 /* BarlowCondensed-Regular.ttf in Resources */,
+				1CF2FF272EAB34B100C8859A /* .gitignore in Resources */,
 				1CD4FEA52EA9A64D007B37B0 /* BarlowCondensed-ExtraBold.ttf in Resources */,
 				1CD4FEAC2EA9E9D6007B37B0 /* KaushanScript-Regular.ttf in Resources */,
 				1CD4FEA72EA9A696007B37B0 /* BarlowCondensed-Bold.ttf in Resources */,
@@ -227,9 +247,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CD4FEB22EAA081A007B37B0 /* CardapioService.swift in Sources */,
+				1CF2FF232EAB2D9100C8859A /* DateUtils.swift in Sources */,
 				1CD4FEB82EAA08D1007B37B0 /* RUDetailView.swift in Sources */,
 				1CD4FEAF2EAA07DC007B37B0 /* Cardapio.swift in Sources */,
 				1C3A2B802EA9968100BB1604 /* RUCard.swift in Sources */,
+				1CF2FF252EAB326C00C8859A /* APIConfig.swift in Sources */,
 				1CD4FEB52EAA0880007B37B0 /* CardapioViewModel.swift in Sources */,
 				1C3A2B742EA9964500BB1604 /* ContentView.swift in Sources */,
 				1C3A2B722EA9964500BB1604 /* HojeNoRU_iOSApp.swift in Sources */,

@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 struct RUDetailView: View {
+    let ruId: Int
     let ruName: String
     @StateObject private var vm = CardapioViewModel()
 
@@ -26,7 +27,7 @@ struct RUDetailView: View {
         }
         .navigationTitle(ruName)
         .onAppear {
-            vm.carregar(ruNome: ruName)
+            vm.carregar(ruId: ruId, diaSemana: diaAtual())
         }
     }
     
@@ -37,7 +38,7 @@ struct RUDetailView: View {
 
     private func errorView(_ message: String) -> some View {
         Text("Erro: \(message)")
-            .foregroundColor(.red)
+            .foregroundColor(.secondary)
     }
 
     private var emptyView: some View {

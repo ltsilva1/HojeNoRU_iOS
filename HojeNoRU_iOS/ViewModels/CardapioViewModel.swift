@@ -15,16 +15,17 @@ class CardapioViewModel: ObservableObject {
 
     private let service = CardapioService()
 
-    func carregar(ruNome: String) {
+    func carregar(ruId: Int, diaSemana: String) {
         isLoading = true
-        service.fetch { [weak self] result in
+        service.fetch(ruId: ruId, diaSemana: diaSemana) { [weak self] result in
             DispatchQueue.main.async {
-                self?.isLoading = false
+                guard let self = self else { return }
+                self.isLoading = false
                 switch result {
-                case .success(let todos):
-                    self?.refeicoes = todos.filter { $0.ruNome.contains(ruNome) }
+                case .success(let data):
+                    self.refeicoes = data
                 case .failure(let erro):
-                    self?.errorMessage = erro.localizedDescription
+                    self.errorMessage = erro.localizedDescription
                 }
             }
         }
