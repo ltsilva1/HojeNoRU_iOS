@@ -63,7 +63,7 @@ struct RUDetailView: View {
         HStack {
             Image(systemName: refeicao.tipo == "Almoco" ? "sun.max.fill" : "moon.fill") // emotezinhos
                 .foregroundColor(refeicao.tipo == "Almoco" ? .orange : .indigo)
-            Text(refeicao.tipo.uppercased())
+            Text(refeicao.tipo == "Almoco" ? "ALMOÇO" : "JANTAR")
                 .font(.headline)
         }
     }

@@ -12,6 +12,7 @@
 		1C3A2B762EA9964900BB1604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3A2B752EA9964900BB1604 /* Assets.xcassets */; };
 		1C3A2B792EA9964900BB1604 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3A2B782EA9964900BB1604 /* Preview Assets.xcassets */; };
 		1C3A2B802EA9968100BB1604 /* RUCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A2B7F2EA9968100BB1604 /* RUCard.swift */; };
+		1C5049AB2EAB585D006E75E5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1C5049AA2EAB585D006E75E5 /* LICENSE */; };
 		1CD4FE9E2EA99E72007B37B0 /* BarlowCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4FE9D2EA99E53007B37B0 /* BarlowCondensed-Regular.ttf */; };
 		1CD4FEA52EA9A64D007B37B0 /* BarlowCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4FEA42EA9A64D007B37B0 /* BarlowCondensed-ExtraBold.ttf */; };
 		1CD4FEA72EA9A696007B37B0 /* BarlowCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4FEA62EA9A696007B37B0 /* BarlowCondensed-Bold.ttf */; };
@@ -32,6 +33,7 @@
 		1C3A2B752EA9964900BB1604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C3A2B782EA9964900BB1604 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1C3A2B7F2EA9968100BB1604 /* RUCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUCard.swift; sourceTree = "<group>"; };
+		1C5049AA2EAB585D006E75E5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1CD4FE9D2EA99E53007B37B0 /* BarlowCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Regular.ttf"; sourceTree = "<group>"; };
 		1CD4FEA32EA9A363007B37B0 /* HojeNoRU-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "HojeNoRU-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 		1CD4FEA42EA9A64D007B37B0 /* BarlowCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		1C3A2B652EA9964500BB1604 = {
 			isa = PBXGroup;
 			children = (
+				1C5049AA2EAB585D006E75E5 /* LICENSE */,
 				1CF2FF262EAB34B100C8859A /* .gitignore */,
 				1C3A2B702EA9964500BB1604 /* HojeNoRU_iOS */,
 				1C3A2B6F2EA9964500BB1604 /* Products */,
@@ -231,6 +234,7 @@
 			files = (
 				1CD4FE9E2EA99E72007B37B0 /* BarlowCondensed-Regular.ttf in Resources */,
 				1CF2FF272EAB34B100C8859A /* .gitignore in Resources */,
+				1C5049AB2EAB585D006E75E5 /* LICENSE in Resources */,
 				1CD4FEA52EA9A64D007B37B0 /* BarlowCondensed-ExtraBold.ttf in Resources */,
 				1CD4FEAC2EA9E9D6007B37B0 /* KaushanScript-Regular.ttf in Resources */,
 				1CD4FEA72EA9A696007B37B0 /* BarlowCondensed-Bold.ttf in Resources */,
