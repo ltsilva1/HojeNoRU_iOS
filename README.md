@@ -6,8 +6,6 @@ Frontend iOS para a HojeNoRU API, com interface nativa em Swift, que exibe o car
 
 <p align="center">
   <img src="./Screenshots/home.png" width="280" />
-  &emsp;&emsp;&emsp;&emsp;&emsp;
-  <img src="./Screenshots/ru-details.png" width="280" />
 </p>
 
 ## Execução local
